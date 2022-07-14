@@ -133,18 +133,22 @@ footer{
     background-color: #240000;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
 }
 .icon{
     width: 20px;
 }
+footer spam{
+    display: flex;
+    gap: 10px;
+}
 footer p{
     display: flex;
-    align-items: center;
     gap: 2px;
 }
+
+
 
 *::-webkit-scrollbar {
     width: 1rem;
